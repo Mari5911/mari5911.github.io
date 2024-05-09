@@ -1,10 +1,52 @@
 .imagen {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(240, 10, 10);
     width: 200px;
     height: auto;
-       
-   }
+}
 
-   body{
-    background: rgb(255, 253, 108);
+header img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80px;
+}
+body{
+    background: rgb(255, 198, 144);
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(238, 79, 79);
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+nav {background-color: #90ff81;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    }
+
+main {
+        padding: 10px 200px;
+}
+
+footer {
+    background-color: #ff6f61;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+user agent stylesheet
+footer {
+    display: block;
 }
