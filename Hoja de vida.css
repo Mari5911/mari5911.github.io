@@ -24,27 +24,30 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: rgb(238, 79, 79);
-    font-size: 1.5em;
+    color: rgba(241, 20, 49, 0.993);
+    font-size: 1.7em;
     padding: 15px;
 }
 
-nav {background-color: #90ff81;
+nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 10px;
+
     }
 
 main {
         padding: 10px 200px;
 }
 
-footer {
-    background-color: #ff6f61;
-    color: #fff;
+.container1{
     text-align: center;
-    padding: 20px;
+  }
+footer {
+    background-color: #a9fcea;
+    color: #070707;
+    text-align: center;
+    padding: 30px;
 }
 user agent stylesheet
 footer {
@@ -61,3 +64,10 @@ footer {
     display: flex;
 }
 
+body{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/006/298/798/non_2x/abstract-geometric-background-shapes-composition-for-poster-flyer-and-landing-page-gradient-futuristic-wallpaper-eps-10-vector.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #000000;
+    }
